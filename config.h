@@ -19,8 +19,8 @@ static const int showtab			= showtab_auto;        /* Default tab bar show mode *
 static const int toptab				= 1;               /* False means bottom tab bar */
 #define ICONSIZE 16   /* icon size */
 #define ICONSPACING 5 /* space between icon and title */
-static const char *fonts[]          = { "monospace:size=12" };
-static const char dmenufont[]       = "monospace:size=12";
+static const char *fonts[]          = { "Ubuntu Mono Nerd Font:size=14" };
+static const char dmenufont[]       = "Ubuntu Mono Nerd Font:size=14";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";

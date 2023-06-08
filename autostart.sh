@@ -1,2 +1,2 @@
-feh --bg-fill ~/Pictures/wallpaper.png &
-brave 
+feh --bg-fill ~/Pictures/wallpaper.jpg &
+brave-browser
