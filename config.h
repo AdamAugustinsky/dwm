@@ -19,8 +19,8 @@ static const int showtab			= showtab_auto;        /* Default tab bar show mode *
 static const int toptab				= 1;               /* False means bottom tab bar */
 #define ICONSIZE 16   /* icon size */
 #define ICONSPACING 5 /* space between icon and title */
-static const char *fonts[]          = { "Ubuntu Mono Nerd Font:size=14" };
-static const char dmenufont[]       = "Ubuntu Mono Nerd Font:size=14";
+static const char *fonts[]          = { "UbuntuMono Nerd Font:size=14" };
+static const char dmenufont[]       = "UbuntuMono Nerd Font:size=14";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -30,6 +30,12 @@ static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+};
+
+static const char *const autostart[] = {
+	"brave-browser", NULL,
+	"slstatus", NULL,
+	NULL /* terminate */
 };
 
 /* tagging */
