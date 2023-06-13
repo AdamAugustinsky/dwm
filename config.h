@@ -33,7 +33,7 @@ static const char *colors[][3]      = {
 };
 
 static const char *const autostart[] = {
-  "sh", "~/.screenlayout/displays.sh", NULL,
+  "sh", "/home/adamaugustinsky/.screenlayout/displays.sh", NULL,
 	"feh", "--bg-fill", "/home/adamaugustinsky/Pictures/wallpaper.jpg", NULL,
 	"brave-browser", NULL,
 	"slstatus", NULL,
